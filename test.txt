@@ -1,0 +1,83 @@
+{
+  "core": {
+    "dimension": {
+      "scale": {
+        "$type": "dimension",
+        "$value": "2"
+      },
+      "xs": {
+        "$type": "dimension",
+        "$value": "4"
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": "{core.dimension.xs} * {core.dimension.scale}"
+      }
+    },
+    "spacing": {
+      "xs": {
+        "$type": "spacing",
+        "$value": "{core.dimension.xs}"
+      },
+      "sm": {
+        "$type": "spacing",
+        "$value": "{core.dimension.sm}"
+      }
+    },
+    "colors": {
+      "black": {
+        "$type": "color",
+        "$value": "#000000"
+      },
+      "white": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      },
+      "gray": {
+        "500": {
+          "$type": "color",
+          "$value": "#a0aec0"
+        }
+      }
+    },
+    "fontSizes": {
+      "body": {
+        "$type": "fontSizes",
+        "$value": "16"
+      },
+      "sm": {
+        "$type": "fontSizes",
+        "$value": "{core.fontSizes.body} * 0.85"
+      }
+    },
+    "fontFamilies": {
+      "body": {
+        "$type": "fontFamilies",
+        "$value": "Roboto"
+      }
+    },
+    "fontWeights": {
+      "bodyRegular": {
+        "$type": "fontWeights",
+        "$value": "Regular"
+      }
+    }
+  },
+  "light": {
+    "fg": {
+      "default": {
+        "$type": "color",
+        "$value": "{core.colors.black}"
+      }
+    },
+    "bg": {
+      "default": {
+        "$type": "color",
+        "$value": "{core.colors.white}"
+      }
+    }
+  },
+  "$metadata": {
+    "tokenSetOrder": ["core", "light"]
+  }
+}

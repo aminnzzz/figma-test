@@ -1,0 +1,20 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --light-bg-default: var(--core-colors-white);
+  --light-fg-default: var(--core-colors-black);
+  --core-font-weights-body-regular: Regular;
+  --core-font-families-body: Roboto;
+  --core-font-sizes-sm: var(--core-font-sizes-body) * 0.85;
+  --core-font-sizes-body: 16;
+  --core-colors-gray-500: #a0aec0;
+  --core-colors-white: #ffffff;
+  --core-colors-black: #000000;
+  --core-spacing-sm: var(--core-dimension-sm);
+  --core-spacing-xs: var(--core-dimension-xs);
+  --core-dimension-sm: var(--core-dimension-xs) * var(--core-dimension-scale);
+  --core-dimension-xs: 4rem;
+  --core-dimension-scale: 2rem;
+}
